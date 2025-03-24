@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "NanumSquareRound";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gosanja";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/Gosanja.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 전체 폰트 적용, 향후 삭제 필요.*/
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "NanumSquareRound", sans-serif;
+  /* 메인에서 다른 폰트 적용 시, 변경.*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+footer {
+  margin: 0;
+  width: 100%;
+}
+.footer_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  border: 1px solid lightgray;
+  border-width: 0 0 1px 0;
+  /* 우측 메뉴 확인용 향후 삭제 */
+  /* padding-top: 15%; */
+}
+footer > div {
+  padding: 0;
+}
+.footer_link > * {
+  height: 100%;
+}
+.fsidemenu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 2rem;
+}
+.fsidemenu > li {
+  list-style: none;
+}
+.fsidemenu > li a,
+.fsidemenu > p {
+  list-style: none;
+  color: gray;
+}
+.fsidemenu > li a:hover {
+  text-decoration: underline;
+}
+
+.fsidemenu li:first-child a {
+  color: tomato;
+  font-weight: bold;
+}
+.triangle {
+  font-size: 0.6rem;
+  padding-left: 1.1rem;
+}
+.family_site {
+  position: relative;
+  border: 1px solid lightgray;
+  border-width: 0 1px;
+  background-color: white;
+  padding: 0 0.8rem;
+  margin-right: 2rem;
+  font-family: "gosanja", sans-serif;
+  /* 폰트 임시 적용. 메인에서 다른 폰트 적용 시, 변경.*/
+  cursor: pointer;
+  color: rgb(60, 60, 60);
+}
+.family_site_list {
+  position: absolute;
+  z-index: 1000;
+  bottom: 100%;
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 100%;
+  left: -1px;
+  padding: 6% 0;
+  display: none;
+}
+.family_site_list > li {
+  text-align: left;
+  font-size: 0.7rem;
+  padding: 2%;
+  padding-left: 6.5%;
+}
+.family_site_list > li > a {
+  color: gray;
+}
+
+.footer_info {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.foot_address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(60, 60, 60);
+  padding-left: 16px;
+}
+.foot_address > address {
+  font-style: normal;
+  font-size: 0.85rem;
+}
+.foot_address > p {
+  margin: 0.2rem 0;
+  font-size: 0.7rem;
+}
+
+.footer_info > * {
+  display: inline;
+}
+
+.footer_info > img:first-child {
+  padding-left: 1%;
+}
+.footer_info > img {
+  padding-right: 10px;
+  max-height: fit-content;
+}
+.footer_info > img:last-child {
+  width: 5rem;
+}
+#wa_mark {
+  position: fixed;
+  right: 0;
+}

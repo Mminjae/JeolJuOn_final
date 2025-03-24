@@ -1,0 +1,299 @@
+
+/* style.css */
+
+/* -------------------------------------------------------
+  Header Styles (헤더 영역)
+-------------------------------------------------------- */
+
+/* WJ let's go */
+/* -------------------------------------------------------
+  Header Styles (헤더 전체 스타일일)
+-------------------------------------------------------- */
+.topService {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e6f2fb;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Arial', sans-serif;
+}
+
+/* -------------------------------------------------------
+절주온 관련 사이트 이동 드롭다운 (헤더 상단 왼쪽 영역)
+-------------------------------------------------------- */
+.topserviceWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.triangleIcon {
+  margin-left: 150px;
+  width: 8px;
+  height: auto;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.triangleIcon.rotate {
+  transform: rotate(180deg);
+}
+
+
+.triangleIcon.rotate {
+  transform: rotate(180deg);
+}
+
+
+.topBar {
+  position: relative;
+}
+
+.topBar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topBarbtn {
+  font-size: 14.4px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 하위 메뉴 */
+.subBar {
+  display: none;
+  position: absolute;
+  top: 31px;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 20px;
+  padding: 10px 0;
+  z-index: 1000;
+  width: 240px;
+}
+
+.subBar li a {
+  position: relative;
+  padding: 8px 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 13.5px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.subBar li a::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 15px;
+  width: 0; 
+  height: 7px; 
+  background-color: rgba(245, 151, 148, 0.4);
+  transition: width 0.4s ease;
+}
+
+.subBar li a:hover::after {
+  width: 85%;
+}
+
+.subBar li a:hover {
+  color: #4662b6;
+}
+
+
+.subBar li.subBaron a {
+  color: #4662b6;
+  z-index: 1;
+}
+
+.subBar li.subBaron a::after {
+  width: 70%;
+  background-color: rgba(245, 151, 148, 0.4);
+}
+
+
+/* -------------------------------------------------------
+SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
+-------------------------------------------------------- */
+.topRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.snsWrapper {
+  position: relative;
+}
+
+.snsBtn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.listSNS {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  white-space: nowrap;
+}
+
+.listSNS li {
+  display: inline-block; 
+  margin-right: 10px;
+}
+
+.listSNS li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.listSNS li a:hover {
+  color: #9f9f9f;
+}
+
+.campaignLink {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  align-items: center;
+  text-align: center;
+}
+
+.campaignLink:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------------------------------
+  헤더 아이콘 이미지 사이즈 조절 (헤더 영역)
+-------------------------------------------------------- */
+.snsIcon {
+  weight: 14px;
+  height: 14px;
+}
+
+.fbIcon {
+  weight: 40px;
+  height: 40px;
+}
+
+.instaIcon {
+  weight: 40px;
+  height: 40px;
+}
+
+.youtubeIcon {
+  weight: 40px;
+  height: 40px;
+}
+
+.blogIcon {
+  weight: 40px;
+  height: 40px;
+}
+
+.campaigninsta{
+  weight: 14px;
+  height: 14px;
+}
+
+
+/* JY let's go */
+
+/* -------------------------------------------------------
+  메인 로고 및 메뉴바 (헤더 영역)
+-------------------------------------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f2fb;
+  padding: 20px 40px;
+  position: relative;
+}
+
+/* -------------------------------------------------------
+  Main Navigation Menu Styles (메인 메뉴)
+-------------------------------------------------------- */
+
+
+.siteBnt {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.siteBnt li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.1s ease;
+}
+
+.siteBnt li a:hover{
+  color: red;
+}
+
+/* -------------------------------------------------------
+  Dropdown Menu Styles (드롭다운 메뉴)
+-------------------------------------------------------- */
+.dropdown-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%; 
+  background-color: #5c5f68;
+  padding: 10px 0;
+  display: none;
+  z-index: 1;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.dropdown a {
+  color: white !important; /* 우선순위를 높게 해주는 기능임(JY) */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown a:hover {
+  text-decoration: underline;
+}
+
+.dropdown-parent:hover .dropdown-wrapper,
+.dropdown-wrapper:hover {
+  display: block;
+}
+

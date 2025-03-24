@@ -1,0 +1,67 @@
+/* ---------3사분면의 기본 아웃라인&캐릭터 ------- */
+.sec2 {
+  height: 116px; /* 부모인 leftcont에 width가 510px부여된것이 상속되어, 대신 height로 변경. */
+  border: 0.5px solid black;
+  border-radius: 20px;
+  background-color: #7862bf; /* 색상변경 slateblue -->#7862bf */
+  color: white;
+  padding: 40px 20px 24px 38px; /* 절주온 f12에 나와있는대로 패딩수치 변경 */
+  position: relative;
+  overflow: hidden;
+  border: none; /* 아웃라인 안보이게 처리 */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+/* .sec2 span:nth-child(1) {
+  position: absolute;
+  left: 20px;
+}
+.sec2 span:nth-child(2) {
+  position: absolute;
+  right: 38px;
+} */
+#sec2_character {
+  width: 150px;
+  height: 149.41px;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto; /* 부모가 flex일때 얘만 오른쪽 정렬 */
+}
+/* ---------3사분면의 기본 아웃라인 디자인 끝------- */
+
+/*--------------3사분면 텍스트박스----------- */
+#third_quadrant h2 {
+  font-size: 22px;
+  text-align: left;
+}
+#sec2_textbox {
+  width: 168px;
+  height: 116px;
+  line-height: 1.2rem;
+}
+#sec2_textbox strong {
+  line-height: 35px;
+}
+/*--------------3사분면 텍스트박스 끝----------- */
+/*--------------3사분면 텍스트박스 하단 화살표----------- */
+.sec2_text_2 {
+  text-align: left;
+  margin-top: 20px;
+}
+.sec2_text,
+.sec2_text_2:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.sec2_text:hover,
+.sec2_text_2:hover {
+  color: white;
+}
+.sec2_text_2:hover {
+  transform: translateX(10px);
+  transition-duration: 0.6s;
+}
+/*--------------3사분면 텍스트박스 하단 화살표 끝----------- */
