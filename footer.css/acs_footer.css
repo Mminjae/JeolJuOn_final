@@ -21,29 +21,28 @@ a {
   /* 메인에서 다른 폰트 적용 시, 변경.*/
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-}
 footer {
   margin: 0;
   width: 100%;
+  padding-bottom: 5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_wrap {
+  width: 1500px;
 }
 .footer_link {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 9vh;
+  height: 6vh;
   border: 1px solid lightgray;
   border-width: 0 0 1px 0;
-  /* 우측 메뉴 확인용 향후 삭제 */
-  /* padding-top: 15%; */
-}
-footer > div {
-  padding: 0;
+  font-size: 1.5rem;
+  padding-top: 1vh;
 }
 .footer_link > * {
   height: 100%;
@@ -99,7 +98,7 @@ footer > div {
 }
 .family_site_list > li {
   text-align: left;
-  font-size: 0.7rem;
+  font-size: 1rem;
   padding: 2%;
   padding-left: 6.5%;
 }
@@ -108,31 +107,32 @@ footer > div {
 }
 
 .footer_info {
-  padding-top: 2rem;
+  width: 100%;
+  padding-top: 3rem;
   display: flex;
   align-items: center;
 }
-
 .foot_address {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   color: rgb(60, 60, 60);
   padding-left: 16px;
 }
 .foot_address > address {
   font-style: normal;
-  font-size: 0.85rem;
+  font-size: 1.4rem;
 }
 .foot_address > p {
-  margin: 0.2rem 0;
-  font-size: 0.7rem;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
 }
 
+.footer_info {
+  position: relative;
+}
 .footer_info > * {
   display: inline;
 }
-
 .footer_info > img:first-child {
   padding-left: 1%;
 }
@@ -144,6 +144,7 @@ footer > div {
   width: 5rem;
 }
 #wa_mark {
-  position: fixed;
+  position: absolute;
   right: 0;
+  width: 100px;
 }

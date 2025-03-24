@@ -3,11 +3,23 @@
 /* -------------------------------------------------------
   Header Styles (헤더 영역)
 -------------------------------------------------------- */
-.header {
+/* .header {
   width: 1500px;
   height: 100px;
   display: flex;
   flex-direction: row;
+} */
+header {
+  width: 100vw;
+  background-color: #dae8f5;
+  display: flex;
+  justify-content: center;
+}
+.header_wrap {
+  width: 1500px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
 }
 /* WJ let's go */
 /* -------------------------------------------------------
@@ -18,7 +30,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #e6f2fb;
+  background-color: #dae8f5;
   border-bottom: 1px solid #ddd;
   font-family: 'Arial', sans-serif;
 }
@@ -59,7 +71,7 @@
 }
 
 .topBarbtn {
-  font-size: 14.4px;
+  font-size: 1.5rem;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -88,6 +100,7 @@
   display: inline-block;
   text-decoration: none;
   color: #333;
+  /* 수정 필요 */
   font-size: 13.5px;
   overflow: hidden;
   z-index: 1;
@@ -138,7 +151,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .snsBtn {
   display: inline-block;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #333;
   padding: 5px 10px;
@@ -166,7 +179,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 
 .listSNS li a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.5rem;
   color: #333;
 }
 
@@ -175,7 +188,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 }
 
 .campaignLink {
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -229,9 +242,15 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e6f2fb;
-  padding: 20px 40px;
+  background-color: #dae8f5;
   position: relative;
+}
+.logo > img {
+  width: 150px;
+}
+.menuBar {
+  font-size: 3.5rem;
+  padding-right: 0.5rem;
 }
 
 /* -------------------------------------------------------
@@ -241,7 +260,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .siteBnt {
   display: flex;
   list-style: none;
-  gap: 40px;
+  gap: 8rem;
   margin: 0;
   padding: 0;
 }
@@ -249,7 +268,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .siteBnt li a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 2rem;
   font-weight: 500;
   position: relative;
   transition: color 0.1s ease;

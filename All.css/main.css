@@ -56,12 +56,13 @@ body * {
   text-align: center;
   margin: auto;
   overflow: hidden;
+  width: 100%;
 }
 /* #wrap = 절주온 사이트 전체를 감싸는 막 */
 /* wrap하위로 헤더팀, 푸터팀 html코딩이 들어올듯? */
 #mainwrap {
   display: flex;
-  margin: 17.5rem auto -0.7rem;
+  margin: 6rem auto -0.7rem;
   padding-bottom: 23rem;
   overflow: visible;
   position: relative;
