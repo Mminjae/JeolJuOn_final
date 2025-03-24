@@ -62,7 +62,7 @@ body * {
 /* wrap하위로 헤더팀, 푸터팀 html코딩이 들어올듯? */
 #mainwrap {
   display: flex;
-  margin: 6rem auto -0.7rem;
+  margin: 7rem auto -0.7rem;
   padding-bottom: 23rem;
   overflow: visible;
   position: relative;
