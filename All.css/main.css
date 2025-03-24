@@ -1,6 +1,7 @@
 /*Reset.CSS적용*/
 @import url('./reset.css');
 /* header css 파일 호출 */
+@import url('/header.css/style.css');
 
 /* main css파일 호출 */
 @import url('/main.css/first_quadrant.css'); /* 은미 */
