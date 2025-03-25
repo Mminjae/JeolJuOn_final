@@ -13,14 +13,6 @@
   font-style: normal;
 }
 
-/* 전체 폰트 적용, 향후 삭제 필요.*/
-a {
-  text-decoration: none;
-  color: black;
-  font-family: 'NanumSquareRound', sans-serif;
-  /* 메인에서 다른 폰트 적용 시, 변경.*/
-}
-
 footer {
   margin: 0;
   width: 100%;
@@ -41,7 +33,7 @@ footer {
   height: 60px;
   border: 1px solid lightgray;
   border-width: 0 0 1px 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding-top: 7px;
 }
 .footer_link > * {
@@ -49,17 +41,18 @@ footer {
 }
 .fsidemenu {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   margin-left: 2rem;
 }
 .fsidemenu > li {
   list-style: none;
 }
-.fsidemenu > li a,
-.fsidemenu > p {
-  list-style: none;
+.fsidemenu > li a {
   color: gray;
+}
+.fsidemenu > p {
+  color: lightgray;
 }
 .fsidemenu > li a:hover {
   text-decoration: underline;
@@ -78,10 +71,11 @@ footer {
   border: 1px solid lightgray;
   border-width: 0 1px;
   background-color: white;
-  padding: 0 0.8rem;
+  padding: 0 1.9rem;
   margin-right: 2rem;
-  font-family: 'gosanja', sans-serif;
   /* 폰트 임시 적용. 메인에서 다른 폰트 적용 시, 변경.*/
+  font-family: 'gosanja', sans-serif;
+  font-size: 1.5rem;
   cursor: pointer;
   color: rgb(60, 60, 60);
 }
@@ -98,9 +92,8 @@ footer {
 }
 .family_site_list > li {
   text-align: left;
-  font-size: 1rem;
-  padding: 2%;
-  padding-left: 6.5%;
+  font-size: 1.3rem;
+  padding: 3% 2% 4% 5%;
 }
 .family_site_list > li > a {
   color: gray;
@@ -115,16 +108,16 @@ footer {
 .foot_address {
   display: flex;
   flex-direction: column;
-  color: rgb(60, 60, 60);
-  padding-left: 16px;
+  color: gray;
+  padding: 10px 0 0 16px;
 }
 .foot_address > address {
   font-style: normal;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 .foot_address > p {
   margin-top: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   display: flex;
 }
 
