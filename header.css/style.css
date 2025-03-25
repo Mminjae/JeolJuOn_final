@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0;
   background-color: #dae8f5;
   border-bottom: 1px solid #ddd;
   font-family: 'Arial', sans-serif;
@@ -71,7 +71,7 @@ header {
 }
 
 .topBarbtn {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -251,7 +251,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   position: relative;
 }
 .logo > img {
-  width: 150px;
+  width: 165px;
 }
 .menuBar {
   font-size: 3.5rem;

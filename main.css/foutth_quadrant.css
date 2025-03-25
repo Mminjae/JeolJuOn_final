@@ -16,6 +16,7 @@
   background-color: #0683b7; /* 내가수정 */
   border-radius: 20px; /* 내가수정 */
   margin-top: 20px;
+  line-height: 1.5rem;
 }
 .list {
   width: 100%;
@@ -23,16 +24,19 @@
   /* background-color: #0683b7; */ /* 내가수정 */
   border-radius: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 2.5rem;
-  /* padding: 43px 28px;*/
-  font-size: 1.2rem;
-  font-weight: 300;
+  padding: 1rem 0.8rem;
+  font-size: 1.4rem;
 }
 
 .list a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-decoration: none;
   color: #fff;
+  gap: 1rem;
 }
 
 #cont_right li:hover {
