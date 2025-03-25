@@ -97,6 +97,7 @@ header {
 .subBar li a {
   position: relative;
   padding: 8px 15px;
+  line-height: normal;
   display: inline-block;
   text-decoration: none;
   color: #333;
@@ -133,6 +134,10 @@ header {
 .subBar li.subBaron a::after {
   width: 70%;
   background-color: rgba(245, 151, 148, 0.4);
+}
+
+.topRight {
+  vertical-align:middle
 }
 
 /* -------------------------------------------------------
