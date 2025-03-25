@@ -193,7 +193,8 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 }
 
 .campaignLink {
-  font-size: 1.5rem;
+  display: flex;
+  font-size: 1.6rem;
   font-weight: bold;
   text-decoration: none;
   color: #333;
@@ -203,6 +204,10 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 
 .campaignLink:hover {
   text-decoration: underline;
+}
+
+.campaignLink > p {
+  padding-left: 8px;
 }
 
 /* -------------------------------------------------------
