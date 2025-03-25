@@ -3,23 +3,21 @@
 /* -------------------------------------------------------
   Header Styles (헤더 영역)
 -------------------------------------------------------- */
-/* .header {
-  width: 1500px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-} */
 header {
-  width: 100vw;
   background-color: #dae8f5;
-  display: flex;
-  justify-content: center;
 }
 .header_wrap {
-  width: 1500px;
-  height: 100px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.header_border_wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
 }
 /* WJ let's go */
 /* -------------------------------------------------------
@@ -29,6 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1500px;
   padding: 10px 0;
   background-color: #dae8f5;
   border-bottom: 1px solid #ddd;
@@ -195,7 +194,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .campaignLink {
   display: flex;
   font-size: 1.6rem;
-  font-weight: bold;
+  font-width: bold;
   text-decoration: none;
   color: #333;
   align-items: center;
@@ -214,32 +213,32 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   헤더 아이콘 이미지 사이즈 조절 (헤더 영역)
 -------------------------------------------------------- */
 .snsIcon {
-  weight: 14px;
+  width: 14px;
   height: 14px;
 }
 
 .fbIcon {
-  weight: 40px;
+  width: 40px;
   height: 40px;
 }
 
 .instaIcon {
-  weight: 40px;
+  width: 40px;
   height: 40px;
 }
 
 .youtubeIcon {
-  weight: 40px;
+  width: 40px;
   height: 40px;
 }
 
 .blogIcon {
-  weight: 40px;
+  width: 40px;
   height: 40px;
 }
 
 .campaigninsta {
-  weight: 14px;
+  width: 14px;
   height: 14px;
 }
 
@@ -249,6 +248,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   메인 로고 및 메뉴바 (헤더 영역)
 -------------------------------------------------------- */
 .header {
+  width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -285,7 +285,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   text-decoration: none;
   color: black;
   font-size: 2rem;
-  font-weight: 500;
+  font-width: 500;
   position: relative;
   transition: color 0.1s ease;
 }
@@ -317,7 +317,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .dropdown a {
   color: white !important; /* 우선순위를 높게 해주는 기능임(JY) */
   text-decoration: none;
-  font-weight: 500;
+  font-width: 500;
 }
 
 .dropdown a:hover {
