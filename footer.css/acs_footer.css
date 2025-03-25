@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "NanumSquareRound";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
-    format("woff");
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff')
+    format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gosanja";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/Gosanja.woff")
-    format("woff");
+  font-family: 'Gosanja';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/Gosanja.woff')
+    format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 a {
   text-decoration: none;
   color: black;
-  font-family: "NanumSquareRound", sans-serif;
+  font-family: 'NanumSquareRound', sans-serif;
   /* 메인에서 다른 폰트 적용 시, 변경.*/
 }
 
@@ -80,7 +80,7 @@ footer {
   background-color: white;
   padding: 0 0.8rem;
   margin-right: 2rem;
-  font-family: "gosanja", sans-serif;
+  font-family: 'gosanja', sans-serif;
   /* 폰트 임시 적용. 메인에서 다른 폰트 적용 시, 변경.*/
   cursor: pointer;
   color: rgb(60, 60, 60);
@@ -125,6 +125,7 @@ footer {
 .foot_address > p {
   margin-top: 0.8rem;
   font-size: 1.1rem;
+  display: flex;
 }
 
 .footer_info {
