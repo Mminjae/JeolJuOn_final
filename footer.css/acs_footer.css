@@ -63,16 +63,15 @@ footer {
   font-weight: bold;
 }
 .triangle {
-  font-size: 0.6rem;
-  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  padding-left: 2.5rem;
 }
 .family_site {
   position: relative;
   border: 1px solid lightgray;
   border-width: 0 1px;
   background-color: white;
-  padding: 0 1.9rem;
-  margin-right: 2rem;
+  padding: 0 1.2rem 0 1.4rem;
   /* 폰트 임시 적용. 메인에서 다른 폰트 적용 시, 변경.*/
   font-family: 'gosanja', sans-serif;
   font-size: 1.5rem;
