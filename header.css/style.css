@@ -263,6 +263,12 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
   gap: 8rem;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.siteBnt li {
+  display: flex;
+  align-items: center;
 }
 
 .siteBnt li a {
