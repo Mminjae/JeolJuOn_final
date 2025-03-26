@@ -92,6 +92,14 @@ header {
     width: 240px;
 }
 
+.subBar li:first-child  {
+    padding-top: 8px;
+}
+
+.subBar li:last-child  {
+    padding-bottom: 8px;
+}
+
 .subBar li a {
     position: relative;
     padding: 8px 15px;
@@ -104,6 +112,7 @@ header {
     overflow: hidden;
     z-index: 1;
     display: flex;
+    width: fit-content;
 }
 
 .subBar li a::after {
