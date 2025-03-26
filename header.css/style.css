@@ -103,6 +103,7 @@ header {
     font-size: 13.5px;
     overflow: hidden;
     z-index: 1;
+    display: flex;
 }
 
 .subBar li a::after {
