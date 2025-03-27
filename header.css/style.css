@@ -289,27 +289,26 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .siteBnt {
     display: flex;
     list-style: none;
-    gap: 8rem;
-    margin: 0;
-    padding: 0;
     height: 100%;
 }
 
-.siteBnt li {
+.dropdown-parent {
     display: flex;
     align-items: center;
+    padding: 0 40px;
+    cursor: pointer;
 }
 
-.siteBnt li a {
+.dropdown-parent a {
     text-decoration: none;
     color: black;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     position: relative;
-    transition: color 0.1s ease;
+    transition: color 0.2s ease;
 }
 
-.siteBnt li a:hover {
+.dropdown-parent:hover a {
     color: red;
 }
 
@@ -330,13 +329,15 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 .dropdown {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 35px;
+    padding: 12px 0;
+    transition: column 0.4s ease !important;
 }
 
-.dropdown a {
-    color: white !important; /* 우선순위를 높게 해주는 기능임(JY) */
+.dropdown-wrapper .dropdown a {
+    color: lightgray;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .dropdown a:hover {
