@@ -260,7 +260,7 @@
 /* 3번 호버 */
 
 .section1 .ellipsis:hover,
-.section1 .two:hover {
+.section1 a:hover {
     text-decoration: underline;
 }
 
