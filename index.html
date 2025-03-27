@@ -14,7 +14,6 @@
 
 <body>
   <!-- header 시작 -->
-
   <header>
     <div class="header_wrap">
       <div class="header_border_wrap">
@@ -226,7 +225,7 @@
             <!-- 2번 -->
             <div class="article_tab">
               <a href="#" v-for="(tab,i) in tabs" :key="tab.id" @click="activeTab=i">
-                <h3 class="ntc">{{tab.title}}</h3>
+                <h3 :class="activeTab === i ? 'ntc clicked' : 'ntc unclicked'">{{tab.title}}</h3>
               </a>
               <a href="https://www.khepi.or.kr/board?menuId=MENU01178&siteId=SITE00005"> <!-- 로고 가상요소으로 넣을까? -->
                 <p>더보기</p>
