@@ -180,14 +180,23 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
     background-color: white;
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 0 10px;
     z-index: 1000;
     white-space: nowrap;
 }
 
 .listSNS li {
     display: inline-block;
-    margin-right: 10px;
+    padding: 20px 10px;
+}
+
+.listSNS img {
+    vertical-align: top;
+}
+
+.iconImgWrap {
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .listSNS li a {
