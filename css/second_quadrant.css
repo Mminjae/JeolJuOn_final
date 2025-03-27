@@ -24,7 +24,7 @@
   height: 54px;
   margin-right: 15px;
   vertical-align: middle;
-  background-image: url(/main_img/red_comma.png);
+  background-image: url(../images/main_img/red_comma.png);
 }
 .h2 {
   display: block;

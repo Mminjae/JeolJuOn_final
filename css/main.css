@@ -1,17 +1,11 @@
-/*Reset.CSS적용*/
-@import url('./reset.css');
-/* header css 파일 호출 */
-@import url('/header.css/style.css');
-
-/* main css파일 호출 */
-@import url('/main.css/first_quadrant.css'); /* 은미 */
-@import url('/main.css/second_quadrant.css'); /* 주영 */
-@import url('/main.css/third_quadrant.css'); /* 민재 */
-@import url('/main.css/foutth_quadrant.css'); /* 준영 */
-@import url('/main.css/cont_center.css');
-
-/* footer css js 파일 호출 */
-@import url('/footer.css/acs_footer.css');
+@import url('/css/reset.css');
+@import url('/css/header.css');
+@import url('/css/first_quadrant.css');
+@import url('/css/second_quadrant.css');
+@import url('/css/third_quadrant.css');
+@import url('/css/foutth_quadrant.css');
+@import url('/css/cont_center.css');
+@import url('/css/footer.css');
 
 /* 사이트 기본글꼴 호출 */
 @font-face {
@@ -84,7 +78,7 @@ body * {
   left: 50%;
   width: 200%;
   height: 100%;
-  background: url(/main_img/bg.jpg) no-repeat center bottom;
+  background: url(../images/main_img/bg.jpg) no-repeat center bottom;
   transform: translateX(-50%);
   content: '';
 }

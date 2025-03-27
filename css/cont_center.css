@@ -20,7 +20,7 @@
 }
 .cent_character {
   display: block;
-  background: url(/main_img/campaign_character.png) no-repeat center bottom /
+  background: url(../images/main_img/campaign_character.png) no-repeat center bottom /
     100%;
   height: 272px;
   width: 100%;
