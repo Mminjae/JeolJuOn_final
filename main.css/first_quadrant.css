@@ -138,6 +138,10 @@
     font-weight: 700;
 }
 
+.section1 .article_tab p:hover {
+    text-decoration: underline;
+}
+
 /* 3번 기사 */
 
 .section1 .ellipsis {
