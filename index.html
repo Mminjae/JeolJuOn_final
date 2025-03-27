@@ -18,6 +18,7 @@
     <div class="header_wrap">
       <div class="header_border_wrap">
         <div class="topService">
+
           <!-- 최상단 왼쪽: 절주온 버튼 -->
           <div class="topBar">
             <ul>
@@ -108,6 +109,7 @@
               </div>
             </div>
           </li>
+
           <!-- 두 번째 메뉴 "통계" -->
           <li class="dropdown-parent">
             <a href="https://www.khepi.or.kr/board?menuId=MENU01152&siteId=null-">통계</a>
@@ -116,6 +118,7 @@
                 <a href="https://www.khepi.or.kr/board?menuId=MENU01152&siteId=null-">통계</a>
               </div>
           </li>
+
           <!-- 세 번째 메뉴 "자료" -->
           <li class="dropdown-parent">
             <a href="https://www.khepi.or.kr/board?menuId=MENU00697&siteId=null-">자료</a>
@@ -129,6 +132,7 @@
               </div>
             </div>
           </li>
+
           <!-- 네 번째 메뉴 "알림" -->
           <li class="dropdown-parent">
             <a href="https://www.khepi.or.kr/board?menuId=MENU01178&siteId=null-">알림</a>
@@ -146,13 +150,15 @@
       </div>
     </div>
   </header>
+  
   <!-- header 끝 -->
   <!-- main 시작  -->
   <div id="wrap">
     <div id="mainwrap">
       <!-- ------------//왼쪽박스// -------------->
       <div id="cont_left">
-        <!-- 2사분면 시작 by 주영 -->
+
+        <!-- 2사분면-->
         <div id="second_quadrant" class="sec1">
           <h2 class="subject">
             <i class="icon"></i>
@@ -182,10 +188,9 @@
           </ul>
         </div>
 
-        <!-- 3사분면 by 민재 -->
+        <!-- 3사분면 -->
         <div onclick="location.href='https://www.khepi.or.kr/acs/acsExpertEdu/main?menuId=MENU01174';"
           id="third_quadrant" class="sec2">
-          <!-- css작업용이성 위해, 3사분면 ID부여 -->
           <span>
             <h2 id="sec2_textbox">
               <a href="https://www.khepi.or.kr/acs/acsExpertEdu/main?menuId=MENU01174" class="sec2_text">
@@ -196,10 +201,10 @@
             </h2>
           </span>
           <span id="sec2_character"><img src="./images/main_img/bg_antialcoholism2.png" alt="절주온 캐릭터" name="절주온 캐릭터터" /></span>
-          <!-- 패딩수치를 절주온f12대로 바꾸고나니, 캐릭터 이미지가 넘침. 절주온 사이트대로 ::after 사용할지, 다른 방법 쓸지 고민해야할듯. -->
           <br />
         </div>
       </div>
+
       <!-- ------------//센터박스// -------------->
       <div id="cont_center">
         <h2 class="subject">
@@ -210,8 +215,10 @@
         </p>
         <span class="cent_character"></span>
       </div>
+
       <!-- ------------//오른쪽박스// -------------->
-      <div id="cont_right"> <!-- main 오른쪽 영역 -->
+      <!-- 1사분면 -->
+      <div id="cont_right">
         <section class="section1">
           <div class="title">
 
@@ -227,7 +234,7 @@
               <a href="#" v-for="(tab,i) in tabs" :key="tab.id" @click="activeTab=i">
                 <h3 :class="activeTab === i ? 'ntc clicked' : 'ntc unclicked'">{{tab.title}}</h3>
               </a>
-              <a href="https://www.khepi.or.kr/board?menuId=MENU01178&siteId=SITE00005"> <!-- 로고 가상요소으로 넣을까? -->
+              <a href="https://www.khepi.or.kr/board?menuId=MENU01178&siteId=SITE00005">
                 <p>더보기</p>
                 <span></span>
                 <i class="fa-regular fa-plus"></i>
@@ -240,7 +247,6 @@
               <article>
                 <a href="https://www.khepi.or.kr/board/view?linkId=1009352&menuId=MENU01178">
                   <strong class="ellipsis">나의 건강을 지키기 위한 '음주예방 가이드라인' 배포(대국민, 임산부, 어린이/청소년)</strong>
-                  <!-- -> css로 할 수도 있지만 strong이 문서상의 중요한 부분한 내용이라고 정확히 전달 가능하기 때문에 / 스크린 리더 같은곳에서 강조 될 수 있다 -->
                   <p class="two">나의 건강을 지키기 위한 '음주폐방 가이드라인'을 배포합니다. 국립암센터와 함께한 연구를 통해 개발된 가이드라인으로, 대국민을 포함한 임산부, 어린이/청소년
                     가이드라인도 별도로
                     준비되어 있습니다.</p>
@@ -267,7 +273,6 @@
             </div>
 
             <!-- 소식 -->
-
             <div class="news" v-if="activeTab===1" v-show="activeTab===1">
 
               <article>
@@ -324,7 +329,8 @@
           </div>
 
         </section>
-        <!-- Part4 -->
+
+        <!-- 4사분면 -->
         <article class="sec4">
           <ul class="list">
             <li>
@@ -384,6 +390,7 @@
       </div>
     </div>
     <!-- main 끝  -->
+     
     <!-- foot 시작 -->
     <footer>
       <div class="footer_border_wrap">
@@ -414,7 +421,6 @@
           </div>
         </div>
       </div>
-      <!-- 푸터 영역  03.24 20:00 -->
       <div class="footer_info">
         <img class="foot_img" src="./images/footer_img/flogo01.png" alt="보건복지부" />
         <img class="foot_img" src="./images/footer_img/flogo.svg" alt="한국건강증진개발원" />

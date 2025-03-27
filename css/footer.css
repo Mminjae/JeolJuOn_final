@@ -75,8 +75,6 @@ footer {
   border-width: 0 1px;
   background-color: white;
   padding: 0 1.2rem 0 1.4rem;
-  /* 폰트 임시 적용. 메인에서 다른 폰트 적용 시, 변경.*/
-  font-family: 'gosanja', sans-serif;
   font-size: 1.5rem;
   cursor: pointer;
   color: rgb(60, 60, 60);

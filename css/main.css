@@ -26,19 +26,13 @@ html {
   font-size: 10px;
 }
 body * {
-  /* 가운데정렬 */
   text-align: center;
-  /* /가운데정렬 */
-
-  /* 전역글꼴 */
   font-family: 'NanumSquareRound';
   font-weight: 400;
-  /* /전역글꼴 */
 }
 /* ------------------전역속성 끝 -----------------*/
 
 .ellipsis {
-  /* 말줄임표 코딩 */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -52,8 +46,7 @@ body * {
   overflow: hidden;
   width: 100%;
 }
-/* #wrap = 절주온 사이트 전체를 감싸는 막 */
-/* wrap하위로 헤더팀, 푸터팀 html코딩이 들어올듯? */
+
 #mainwrap {
   display: flex;
   margin: 7rem auto -0.7rem;
@@ -67,10 +60,7 @@ body * {
   text-align: center;
   justify-content: space-between;
 }
-/* #mainwrap = 절주온 사이트중 메인영역을 덮는 막 */
-/* mainwrap하위로 main팀 팀원4명의 html이 들어올듯? */
 
-/* mainwrap 배경화면 이미지 */
 #mainwrap::before {
   display: block;
   position: absolute;
@@ -84,6 +74,5 @@ body * {
 }
 #cont_left {
   position: relative;
-  width: 510px; /* 화면을 따라 작아지려면 calc나 %써야할듯 */
+  width: 510px;
 }
-/* cont_left = 주영, 민재의 html코드가 하위로 들어오는 모체 */

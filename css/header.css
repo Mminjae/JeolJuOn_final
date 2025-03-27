@@ -19,7 +19,7 @@ header {
     width: 100%;
     border-bottom: 1px solid #ddd;
 }
-/* WJ let's go */
+
 /* -------------------------------------------------------
   Header Styles (헤더 전체 스타일일)
 -------------------------------------------------------- */
@@ -107,7 +107,6 @@ header {
     display: inline-block;
     text-decoration: none;
     color: #333;
-    /* 수정 필요 */
     font-size: 13.5px;
     overflow: hidden;
     z-index: 1;
@@ -259,8 +258,6 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
     width: 14px;
     height: 14px;
 }
-
-/* JY let's go */
 
 /* -------------------------------------------------------
   메인 로고 및 메뉴바 (헤더 영역)

@@ -13,9 +13,7 @@
 }
 #cont_left,
 #cont_left * {
-  /* font-family: 'NanumSquareRound';   */
 }
-/* 1사분면&2사분면 공통속성 끝*/
 
 /* 제목:최신자료 시작 */
 .subject .icon {
@@ -44,7 +42,7 @@
 /* 카테고리:4개박스 시작*/
 .datalist {
   display: flex;
-  flex-flow: row wrap; /* 4개의 박스를 외곽박스안에 담아주되, 가로방향(row)으로 채움 */
+  flex-flow: row wrap;
 }
 .datalist > li {
   width: 50%;
