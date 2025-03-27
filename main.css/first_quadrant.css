@@ -10,6 +10,8 @@
 
     position: relative;
     background-color: white;
+
+    overflow: hidden;
 }
 
 /* 1번. 소통, 이야기를 전해요 */
@@ -35,7 +37,7 @@
 
 /* 2번. 공지사항 소식 언론보도 더보기 */
 .section1 .article_tab {
-    width: 109%;
+    width: 120%;
     transform: translateX(-4%);
     height: 60px;
 
