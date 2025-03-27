@@ -266,6 +266,7 @@ SNS 이동 버튼 및 캠페인 이동 (헤더 상단 오른쪽 영역)
 }
 .logo > img {
     width: 165px;
+    cursor: pointer;
 }
 .menuBar {
     font-size: 3.5rem;
